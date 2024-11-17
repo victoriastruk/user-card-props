@@ -1,0 +1,94 @@
+:root {
+  font-size: 24px;
+  min-height: 100vh;
+  font-style: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(78, 75, 75, 0.11);
+  min-height: 100vh;
+}
+
+.userCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.userPhoto {
+  width: 330px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.userCardInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: -115px;
+  margin-bottom: 30px;
+  gap: 5px;
+  text-align: center;
+  color: #fff;
+}
+.nickName {
+  font-size: 16px;
+}
+.addBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 30px;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  margin: 5px auto;
+  z-index: 500;
+  background-color: #f96b4c;
+  background-image: linear-gradient(#f96b4c, #f23182);
+  box-shadow: 0 2px 0 #d42d78, 0 3px 10px rgba(243, 49, 128, 0.15),
+    0 0px 10px rgba(243, 49, 128, 0.15), 0 0px 4px rgba(0, 0, 0, 0.35),
+    0 5px 20px rgba(243, 49, 128, 0.25), 0 15px 40px rgba(243, 49, 128, 0.75),
+    inset 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.statsHolder {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.userStats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.userStats > strong {
+  font-size: 16px;
+  color: #5f5f5f;
+}
+
+.userStats > span {
+  font-weight: 900;
+  color: #5f5f5f;
+}
