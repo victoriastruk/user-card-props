@@ -8,15 +8,9 @@ A React component that displays user information passed via props, with conditio
 - Uses inline styles to change name or shadow color based on gender
 - Includes basic styling for visual layout
 
-## 🧪 Technologies Used
-
-- React
-- Inline styles
-- Props handling
-
 ## 🔗 Live Preview
 
-👉 Live demo coming soon via CodeSandbox
+👉 [View live in CodeSandbox](https://codesandbox.io/p/sandbox/l58f3s?file=%2Fsrc%2FApp.js)
 
 ---
 
